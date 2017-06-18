@@ -1,0 +1,21 @@
+@import "./variables.css";
+
+.image {
+  &.border {    
+    background: $background-image;
+    border: 1px solid $border-image;
+    margin: $s;
+  }
+  &.small {
+    img {
+      height: 90px;
+      width: 90px;
+    }
+  }
+  &.large {
+    img {
+      max-height: 90vh;
+      max-width: 90vw;
+    }
+  }
+}

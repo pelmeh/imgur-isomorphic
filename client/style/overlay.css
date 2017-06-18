@@ -1,0 +1,18 @@
+@import "./variables.css";
+
+.overlay {
+  background: $background-overlay;
+  color: #FFF;
+  cursor: pointer;
+  height: 100%;
+  position: fixed;
+  width: 100%;
+  .inner {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    height: inherit;
+    width: inherit;
+  }
+}

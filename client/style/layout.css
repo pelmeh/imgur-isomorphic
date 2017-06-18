@@ -1,0 +1,37 @@
+@import "./variables.css";
+
+.margin {
+  margin: $m;
+}
+
+.marginS {
+  margin: $s;
+}
+
+.marginM {
+  margin: $m;
+}
+
+.marginM {
+  margin: $l;
+}
+
+.padding {
+  padding: $m;
+}
+
+.paddingS {
+  padding: $s;
+}
+
+.paddingM {
+  padding: $m;
+}
+
+.paddingL {
+  padding: $l;
+}
+
+.pointer {
+  cursor: pointer;
+}
